@@ -1,0 +1,912 @@
+/* Styles for normal size phones */
+@media only screen 
+  and (max-device-width: 767px) {
+    /* Insert your normal size phone styles here */
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.topbar{
+    background-color: #009579;
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    padding-right: 10px;
+}
+.conone{
+    background-color: black;
+    height: 479px;
+    color: white;
+}
+.onokaycon{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 20%;
+}
+.enokaytxt{
+    font-size: 25px;
+}
+.onokayimagecon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.onokayimage{
+    font-size: 30px;
+}
+.datecon{
+    padding-right: 40px;
+}
+#date{
+    font-size: 17px;
+    font-style: bold;
+}
+#time{
+    font-size: 17px;
+    font-style: bold;
+}
+.welcomecon{
+    padding-left: 30px;
+    padding-top: 45px;
+}
+.enwelcometxtone{
+    font-size: 30px;
+}
+.enwelcometxttwo{
+    font-size: 17px;
+}
+.buttonscon{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.joinvipbtn{
+    background-color: #009579;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 180px;
+    font-weight: 500;
+}
+.jointgcon{
+    padding-top: 15px;
+}
+.jointgbtn{
+    background-color: #009579;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 300px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+}
+.telegram{
+    width: 20px;
+    height: 20px;
+}
+.jointgicon{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.freepridcon{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    justify-content: center;
+}
+.freepridctxt{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.notecon{
+    background-color: #4c4c4c;
+    color: white;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.notetxt{
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.containerthree{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: #009579;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#toggleButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009579;
+    color: white;
+    height: 50px;
+    width: 100%;
+    border: none;
+    padding: 0 10px;
+    padding-bottom: 5px;
+}
+.prvtxt{
+    font-size: 20px;
+    font-weight: 600;
+}
+.arrow {
+  display: inline-block;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    
+}
+th {
+    background-color: #009579;
+    color:white;
+}
+#styled-table {
+    border-collapse: collapse;
+}
+
+#styled-table th, #styled-table td {
+    border: none;
+}
+.rowedx{
+    background-color: white;
+    border-bottom: 0.5px solid black;
+}
+.rowedy{
+    background-color: rgb(214, 214, 214);
+    border-bottom: 0.5px solid black;
+}
+.lastrow{
+    border-bottom: 12px solid #009579;
+    background-color: white;
+}
+#panel, #list {
+    display: block;
+}
+button:focus {
+    outline: none;
+}
+.prvtxt{
+    font-size: 20px;
+    font-weight: 600;
+}
+.arrow.rotate {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+#toggleButtonone {
+    background-color: #009579;
+    color: white;
+    height: 50px;
+    border: #009579;
+    display: flex; /* Add this */
+    justify-content: space-between; /* Change this */
+    width: 100%;
+    padding: 0 10px; 
+}
+
+.prvtxtone {
+    font-size: 20px;
+    font-weight: 600;
+}
+#toggleButtontwo {
+    background-color: #009579;
+    color: white;
+    height: 50px;
+    border: #009579;
+    display: flex; /* Add this */
+    justify-content: space-between; /* Change this */
+    width: 100%;
+    padding: 0 10px; /* Add this to give some space on the sides */
+}
+
+.prvtxttwo {
+    font-size: 20px;
+    font-weight: 600;
+}
+.containerfour{
+    background-color: #009579;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 5px;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+#logbutton{
+    background-color: #009579;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+.logtxt{
+    font-weight: 600;
+    font-size: 17px;  
+}
+.advice{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.adviceone{
+    font-size: 20px;
+    font-weight: 600;
+}
+.advice{
+    font-size: 17px;
+    background-color: #2596be;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 5px;
+    margin-top: 70px;
+    color: white;
+}
+.subscribed{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.no{
+    text-align: center;
+    font-size: 30px;
+    color: #009579;
+}
+.txtno{
+    font-size: 20px;
+    color: white;
+}
+.noone, .notwo, .nothree{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    background-color: #212425;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.contactone{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.contacttwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right:10px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+.emailcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.callcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.refresh{
+    width: 20px;
+    height: 20px;
+}
+.refcon{
+    background-color:#009579;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.twiticon{
+    width: 44px;
+    height: 44px;
+}
+.twitter{
+    width: 44px;
+    height: 44px;
+}
+.inticon{
+    width: 50px;
+    height: 50px;
+    margin-left: 11px;
+}
+.instagram{
+    width: 50px;
+    height: 50px;
+}
+.faceicon{
+    width: 60px;
+    height: 60px;
+}
+.facebook{
+    width: 43px;
+    height: 43px;
+}
+.envelope{
+    width: 35px;
+    height: 35px;
+}
+.phone{
+    width: 30px;
+    height: 30px;
+}
+.footer{
+    background-color: #009579;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+}
+    /* Ins/* Styles for iPad and laptop*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 4280px) {
+    /* Insert your iPad styles here */
+    /* The styles will be similar to the ones you have for normal size phones, 
+       but you might want to adjust some sizes, margins, paddings, etc. 
+       to better fit the larger screen size of an iPad. */ert your normal size phone styles here */
+     body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.topbar{
+    background-color: #009579;
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    padding-right: 10px;
+}
+.conone{
+    background-color: black;
+    height: 409px;
+    color: white;
+}
+.onokaycon{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.enokaytxt{
+    font-size: 25px;
+}
+.topbartwo{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.middlecon{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.homecon{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 17px;
+    color: #009579;
+}
+.aboutcon{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 17px;
+    color: white;
+}
+.vippagecon{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 17px;
+    color: white;
+}
+.contactcon{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 17px;
+    color: white;
+}
+.loginbtn{
+    background-color: #009579;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 40%;
+    font-weight: 500;
+    margin-right: 15px;
+}
+.signupbtn{
+    background-color:white;
+    color: #009579;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 40%;
+    font-weight: 500;
+    }
+.rightcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+.onokayimagecon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.onokayimage{
+    font-size: 30px;
+}
+.datecon{
+    padding-right: 40px;
+}
+#date{
+    font-size: 17px;
+    font-style: bold;
+}
+#time{
+    font-size: 17px;
+    font-style: bold;
+}
+.welcomecon{
+    padding-left: 70px;
+    padding-top: 25px;
+    margin-top: 1px;
+    z-index: 2;
+}
+.enwelcometxtone{
+    font-size: 44px;
+    font-weight: 600;
+}
+.enwelcometxttwo{
+    font-size: 22px;
+}
+.buttonscon{
+    padding-left: 70px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.joinvipbtn{
+    background-color: #009579;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 180px;
+    font-weight: 500;
+}
+.jointgcon{
+    padding-left: 20px;
+}
+.jointgbtn{
+    background-color: #009579;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 300px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+}
+.telegram{
+    width: 20px;
+    height: 20px;
+}
+.jointgicon{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.freepridcon{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    justify-content: center;
+}
+.freepridctxt{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.notecon{
+    background-color: #4c4c4c;
+    color: white;
+    margin-left: 16px;
+}
+.notetxt{
+    padding: 10px;
+    font-size: 17px;
+    padding-left: 60px;
+    text-align: center;
+}
+.containerthree{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: #009579;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#toggleButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009579;
+    color: white;
+    height: 50px;
+    width: 100%;
+    border: none;
+    padding: 0 10px;
+    padding-bottom: 5px;
+}
+.prvtxt{
+    font-size: 20px;
+    font-weight: 600;
+}
+.arrow {
+  display: inline-block;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    
+}
+th {
+    background-color: #009579;
+    color:white;
+}
+#styled-table {
+    border-collapse: collapse;
+}
+
+#styled-table th, #styled-table td {
+    border: none;
+}
+.rowedx{
+    background-color: white;
+    border-bottom: 0.5px solid black;
+}
+.rowedy{
+    background-color: rgb(214, 214, 214);
+    border-bottom: 0.5px solid black;
+}
+.lastrow{
+    border-bottom: 12px solid #009579;
+    background-color: white;
+}
+#panel, #list {
+    display: block;
+}
+button:focus {
+    outline: none;
+}
+.prvtxt{
+    font-size: 20px;
+    font-weight: 600;
+}
+.arrow.rotate {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+#toggleButtonone {
+    background-color: #009579;
+    color: white;
+    height: 50px;
+    border: #009579;
+    display: flex; /* Add this */
+    justify-content: space-between; /* Change this */
+    width: 100%;
+    padding: 0 10px; 
+}
+
+.prvtxtone {
+    font-size: 20px;
+    font-weight: 600;
+}
+#toggleButtontwo {
+    background-color: #009579;
+    color: white;
+    height: 50px;
+    border: #009579;
+    display: flex; /* Add this */
+    justify-content: space-between; /* Change this */
+    width: 100%;
+    padding: 0 10px; /* Add this to give some space on the sides */
+}
+
+.prvtxttwo {
+    font-size: 20px;
+    font-weight: 600;
+}
+.containerfour{
+    background-color: #009579;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 5px;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+#logbutton{
+    background-color: #009579;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+.logtxt{
+    font-weight: 600;
+    font-size: 17px;  
+}
+.advice{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.adviceone{
+    font-size: 20px;
+    font-weight: 600;
+}
+.advice{
+    font-size: 17px;
+    background-color: #2596be;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 5px;
+    margin-top: 70px;
+    color: white;
+}
+.subscribed{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.no{
+    text-align: center;
+    font-size: 30px;
+    color: #009579;
+}
+.txtno{
+    font-size: 20px;
+    color: white;
+}
+.noone, .notwo, .nothree{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    background-color: #212425;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.contactone{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.contacttwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right:10px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+.emailcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.callcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.refresh{
+    width: 20px;
+    height: 20px;
+}
+.refcon{
+    background-color:#009579;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.twiticon{
+    width: 44px;
+    height: 44px;
+}
+.twitter{
+    width: 44px;
+    height: 44px;
+}
+.inticon{
+    width: 50px;
+    height: 50px;
+    margin-left: 11px;
+}
+.instagram{
+    width: 50px;
+    height: 50px;
+}
+.faceicon{
+    width: 60px;
+    height: 60px;
+}
+.facebook{
+    width: 43px;
+    height: 43px;
+}
+.envelope{
+    width: 35px;
+    height: 35px;
+}
+.phone{
+    width: 30px;
+    height: 30px;
+}
+.footer{
+    background-color: #009579;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.leftside{
+    width: 65%;
+}
+.both{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rightside{
+    width: 35%;
+    padding-left: 37px;
+    padding-right: 15px;
+}
+.leaguetitlecon{
+    background-color: #009579;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+
+}
+.leaguetitletxt{
+    font-size: 15px;
+    font-weight: 600;
+}
+.leaguescon{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.topbartwo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.topbartwo.hidden {
+    opacity: 0;
+}
+}

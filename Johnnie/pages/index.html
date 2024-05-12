@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bet Prediction Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="datecon">
+      <p id="date"></p>
+    </div>
+    <div class="timecon">
+      <p id="time"></p>
+    </div>
+  </div>
+  <div class="conone">
+    <div class="topbartwo">
+      <div class="onokaycon">
+        <div class="onokaytxt">
+          <p class="enokaytxt">enokay</p>
+        </div>
+        <div class="onokayimagecon">
+          <p class="onokayimage">69</p>
+        </div>
+      </div>
+      <div class="middlecon">
+        <div class="homecon ipadContent">
+          <div class="hometxt">
+            HOME
+          </div>
+        </div>
+        <div class="aboutcon ipadContent">
+          <div class="abouttxt">
+            ABOUT US
+          </div>
+        </div>
+        <div class="vippagecon ipadContent">
+          <div class="vippagetxt">
+            VIP PAGE
+          </div>
+        </div>
+        <div class="contactcon ipadContent">
+          <div class="contacttxt">
+            CONTACT US
+          </div>
+        </div>
+      </div>
+      <div class="rightcon ipadContent">
+        <button class="loginbtn">
+          <span class="logintxt">LOG IN</span>
+        </button>
+        <button class="signupbtn">
+          <span class="signuptxt">SIGN UP</span>
+        </button>
+      </div>
+    </div>
+    <div class="welcomecon">
+      <div class="welcometxt">
+        <p class="enwelcometxtone">
+          Welcome to<br />
+          Enokay69 Odds Hub!
+        </p>
+        <p class="enwelcometxttwo">
+          Get your High and Low Risk slips from The
+          No.1 Sports Prediction Guru.
+        </p>
+      </div>
+    </div>
+    <div class="buttonscon">
+      <div class="joinvipcon">
+        <button class="joinvipbtn">JOIN VIP PAGE</button>
+      </div>
+      <div class="jointgcon">
+        <button class="jointgbtn">
+          <div class="jointgicon">
+            <img src="../images/telegram.png" alt="telegram" class="telegram" />
+          </div>JOIN TELEGRAM CHANNEL
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="freepridcon">
+    <p class="freepridctxt">
+      FREE PREDICTIONS
+      (LIMITED)
+    </p>
+  </div>
+  <div class="both">
+    <div class="leftside">
+      <div class="contwo">
+        <div class="notecon">
+          <p class="notetxt">
+            NB: These free Predictions are limited. Log In
+            or Sign Up to enjoy more Free slips with
+            higher returns
+          </p>
+        </div>
+      </div>
+      <div class="containerthree">
+        <div id="toggleButton">
+          <div class="prvtxt">PREVIOUS TIPS (View Slip)</div>
+          <div class="arrow">&#x25BC;</div>
+        </div>
+        <div id="panel" style="display: none">
+          <br />
+          <table id="styled-table">
+            <tr class="rowedx firstrow">
+              <th>League</th>
+              <th>Teams</th>
+              <th>Tips</th>
+              <th>Results</th>
+            </tr>
+            <tr class="rowedy">
+              <td>Premier League</td>
+              <td>Manchester United vs Liverpool</td>
+              <td>Over 2.5</td>
+              <td>3-2</td>
+              <td></td>
+            </tr>
+            <tr class="rowedx">
+              <td>La Liga</td>
+              <td>Barcelona vs Real Madrid</td>
+              <td>Under 3.5</td>
+              <td>2-1</td>
+              <td></td>
+            </tr>
+            <tr class="rowedy">
+              <td>Serie A</td>
+              <td>Juventus vs Inter Milan</td>
+              <td>BTTS</td>
+              <td>1-1</td>
+              <td></td>
+            </tr>
+            <tr class="rowedx">
+              <td>Bundesliga</td>
+              <td>Bayern Munich vs Borussia Dortmund</td>
+              <td>Over 3.5</td>
+              <td>4-2</td>
+              <td></td>
+            </tr>
+            <tr class="rowedy">
+              <td>Ligue 1</td>
+              <td>PSG vs Lyon</td>
+              <td>Under 2.5</td>
+              <td>1-0</td>
+              <td></td>
+            </tr>
+            <tr class="lastrow">
+              <td>Eredivisie</td>
+              <td>Ajax vs PSV</td>
+              <td>BTTS</td>
+              <td>2-2</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <!-- Button 1 -->
+        <button id="toggleButtonone">
+          <span class="prvtxtone">FREEEE ODDS</span>
+          <span class="arrow">&#x25BC;</span>
+        </button>
+        <div id="panel1" style="display: none">
+          <table id="styled-table">
+            <tr class="rowedx firstrow">
+              <th>League</th>
+              <th>Teams</th>
+              <th>Tips</th>
+              <th>Results</th>
+            </tr>
+            <tr class="rowedy">
+              <td>Premier League</td>
+              <td>Manchester United vs Liverpool</td>
+              <td>Over 2.5</td>
+              <td>3-2</td>
+              <td></td>
+            </tr>
+            <tr class="rowedx">
+              <td>La Liga</td>
+              <td>Barcelona vs Real Madrid</td>
+              <td>Under 3.5</td>
+              <td>2-1</td>
+              <td></td>
+            </tr>
+            <tr class="rowedy">
+              <td>Serie A</td>
+              <td>Juventus vs Inter Milan</td>
+              <td>BTTS</td>
+              <td>1-1</td>
+              <td></td>
+            </tr>
+            <tr class="rowedx">
+              <td>Bundesliga</td>
+              <td>Bayern Munich vs Borussia Dortmund</td>
+              <td>Over 3.5</td>
+              <td>4-2</td>
+              <td></td>
+            </tr>
+            <tr class="rowedy">
+              <td>Ligue 1</td>
+              <td>PSG vs Lyon</td>
+              <td>Under 2.5</td>
+              <td>1-0</td>
+              <td></td>
+            </tr>
+            <tr class="lastrow">
+              <td>Eredivisie</td>
+              <td>Ajax vs PSV</td>
+              <td>BTTS</td>
+              <td>2-2</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <!-- Button 2 -->
+        <button id="toggleButtontwo">
+          <span class="prvtxttwo">RISKY MEGA ODDS</span>
+          <span class="arrow">&#x25BC;</span>
+        </button>
+        <div id="panel2" style="display: none">
+          <table id="styled-table">
+            <tr class="rowedx firstrow">
+              <th>League</th>
+              <th>Teams</th>
+              <th>Tips</th>
+              <th>Results</th>
+            </tr>
+            <tr class="rowedy">
+              <td>Premier League</td>
+              <td>Manchester United vs Liverpool</td>
+              <td>Over 2.5</td>
+              <td>3-2</td>
+              <td></td>
+            </tr>
+            <tr class="rowedx">
+              <td>La Liga</td>
+              <td>Barcelona vs Real Madrid</td>
+              <td>Under 3.5</td>
+              <td>2-1</td>
+              <td></td>
+            </tr>
+            <tr class="rowedy">
+              <td>Serie A</td>
+              <td>Juventus vs Inter Milan</td>
+              <td>BTTS</td>
+              <td>1-1</td>
+              <td></td>
+            </tr>
+            <tr class="rowedx">
+              <td>Bundesliga</td>
+              <td>Bayern Munich vs Borussia Dortmund</td>
+              <td>Over 3.5</td>
+              <td>4-2</td>
+              <td></td>
+            </tr>
+            <tr class="rowedy">
+              <td>Ligue 1</td>
+              <td>PSG vs Lyon</td>
+              <td>Under 2.5</td>
+              <td>1-0</td>
+              <td></td>
+            </tr>
+            <tr class="lastrow">
+              <td>Eredivisie</td>
+              <td>Ajax vs PSV</td>
+              <td>BTTS</td>
+              <td>2-2</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="containerfour">
+        <button id="logbutton">
+          <div class="refcon">
+            <img src="../images/refresh.png" alt="refresh" class="refresh" />
+          </div>
+          <span class="logtxt">
+            SIGNUP OR LOGIN FOR EXTRA FREE
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class="rightside ipadContent">
+      <div class="rightconone">
+        <div class="leaguetitlecon">
+          <span class="leaguetitletxt">POPULAR LEAGUES</span>
+        </div>
+        <div class="leaguescon">
+          <li class="leaguetxt">English Premier League</li>
+          <li class="leaguetxt">La Liga</li>
+          <li class="leaguetxt">Serie A</li>
+          <li class="leaguetxt">Bundesliga</li>
+          <li class="leaguetxt">Ligue 1</li>
+          <li class="leaguetxt">Eredivisie</li>
+          <li class="leaguetxt">Champions League</li>
+          <li class="leaguetxt">Europa League</li>
+          <li class="leaguetxt">World Cup</li>
+        </div>
+      </div>
+      <div class="advice">
+        <p class="adviceone">Tipster Advice</p>
+        <p class="advicetwo">⭐⭐⭐⭐⭐</p>
+        <P class="advicethree">To all clients, reduce your bet addiction. Everything we do here is with my
+          own intelligence, experience and instincts. Enokay69.com is for persons with age 18+ Only! BET RESPONSIBILY!!Thank
+          you.
+        </P>
+        <p class="advicefour">@enokay69</p>
+      </div>
+    </div>
+  </div>
+  <div class="subscribed">
+    <p class="noone"><span class="no">154,154</span>
+      <span class="txtno">SUBCRIBED CLIENTS</span>
+    </p>
+    <p class="notwo"><span class="no">40,560</span>
+      <span class="txtno">PREDICTIONS</span>
+    </p>
+    <p class="nothree"><span class="no">103,550 </span>
+      <span class="txtno">SATISFIED CLIENTS</span>
+    </p>
+  </div>
+  <div class="contact">
+    <div class="contactone">
+      <div class="twiticon">
+        <img src="../images/x.png" alt="twitter" class="twitter" />
+      </div>
+      <div class="inticon">
+        <img src="../images/instagram.png" alt="instagram" class="instagram" />
+      </div>
+      <div class="faceicon">
+        <img src="../images/facebook.png" alt="facebook" class="facebook" />
+      </div>
+    </div>
+    <div class="contacttwo">
+      <div class="emailcon">
+        <div class="emailiconcon">
+          <img src="../images/envelope.png" alt="envelope" class="envelope" />
+        </div>
+        <div class="emailtxtcon">
+          <div class="emailtxtone">
+            Email Us
+          </div>
+          <div class="emailtxttwo">
+            jeremiahdjagni@gmail.com
+          </div>
+        </div>
+      </div>
+      <div class="callcon">
+        <div class="callimgcon">
+          <div class="callimage">
+            <img src="../images/phone.png" alt="phone" class="phone" />
+          </div>
+        </div>
+        <div class="calltxtcon">
+          <div class="calltxtone">
+            Get In Touch
+          </div>
+          <div class="calltxttwo">
+            +233543907440
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="footerone">© 2021 Enokay69.com. All Rights Reserved</p>
+      <p class="footertwo">Terms & Conditions | Privacy Policy</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
